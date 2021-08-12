@@ -1,0 +1,33 @@
+body { /*Background image*/
+    background-image: linear-gradient(rgba(70, 62, 60, 0.65), rgba(61, 54, 52, 0.65)), url("../images/pbg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+
+.navuline:hover{ /*Navigation links get underlined when you put mouse over*/
+  text-decoration: underline;
+}
+
+.resumebold { /* Made some section titles in resume bold*/
+  font-weight: bolder;
+}
+
+/*For all practical purposes, these two are one style attribute. It's affecting the title at the top of the site.*/
+.site-heading .site-heading-upper { 
+  font-family: monospace;
+  font-weight: 100;
+}
+.site-heading .site-heading-lower {
+  font-family: cursive;
+  text-transform: none;
+  font-weight: 600;
+}
+
+.section-font { /*Changed the font of some general content on pages*/
+  font-family: monospace;
+  text-transform: none;
+}
+
+
+
